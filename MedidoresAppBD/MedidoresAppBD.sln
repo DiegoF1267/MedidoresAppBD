@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1585
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedidoresAppBD", "MedidoresAppBD\MedidoresAppBD.csproj", "{E8E523C4-5617-403E-AD85-970BC0E6692B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedidoresAppDato", "MedidoresAppDato\MedidoresAppDato.csproj", "{7BFE2D06-4CC6-43C7-9C13-E827E2A4187B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E8E523C4-5617-403E-AD85-970BC0E6692B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8E523C4-5617-403E-AD85-970BC0E6692B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8E523C4-5617-403E-AD85-970BC0E6692B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BFE2D06-4CC6-43C7-9C13-E827E2A4187B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BFE2D06-4CC6-43C7-9C13-E827E2A4187B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BFE2D06-4CC6-43C7-9C13-E827E2A4187B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BFE2D06-4CC6-43C7-9C13-E827E2A4187B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
