@@ -53,8 +53,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DAL\EstacionDAL.cs" />
-    <Compile Include="DAL\PuntoDAL.cs" />
+    <Compile Include="DAL\EstacionesServiciosArchivos.cs" />
+    <Compile Include="DAL\EstacionesServiciosFactory.cs" />
+    <Compile Include="DAL\IEstacionesServicios.cs" />
+    <Compile Include="DAL\IPuntosCargas.cs" />
+    <Compile Include="DAL\PuntosCargasArchivos.cs" />
+    <Compile Include="DAL\PuntosCargasFactory.cs" />
     <Compile Include="EstacionServicio.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>

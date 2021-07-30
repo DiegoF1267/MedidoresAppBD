@@ -1,5 +1,5 @@
-﻿using AdministracionModel.DAL;
-using AdministracionModel.DTO;
+﻿using MedidoresAppDato;
+using MedidoresAppDato.DAL;
 using System;
 using System.Collections.Generic;
 using System.Linq;

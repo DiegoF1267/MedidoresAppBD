@@ -1,5 +1,5 @@
-﻿using MedidoresAppDato.DAL;
-using MedidoresAppDato;
+﻿using MedidoresAppDato;
+using MedidoresAppDato.DAL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
