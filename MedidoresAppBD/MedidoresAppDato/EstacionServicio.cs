@@ -18,6 +18,6 @@ namespace MedidoresAppDato
         public int CapMaxEstacion { get; set; }
         public string Region { get; set; }
         public string HorarioAtencion { get; set; }
-        public string direccion { get; set; }
+        public string Direccion { get; set; }
     }
 }

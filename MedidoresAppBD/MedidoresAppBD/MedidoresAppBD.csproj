@@ -67,19 +67,81 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ActualizarPunto.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="RegistrarEstacion.aspx" />
+    <Content Include="RegistrarPunto.aspx" />
+    <Content Include="VerEstacion.aspx" />
+    <Content Include="VerPunto.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActualizarPunto.aspx.cs">
+      <DependentUpon>ActualizarPunto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ActualizarPunto.aspx.designer.cs">
+      <DependentUpon>ActualizarPunto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistrarEstacion.aspx.cs">
+      <DependentUpon>RegistrarEstacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrarEstacion.aspx.designer.cs">
+      <DependentUpon>RegistrarEstacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarPunto.aspx.cs">
+      <DependentUpon>RegistrarPunto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrarPunto.aspx.designer.cs">
+      <DependentUpon>RegistrarPunto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="VerEstacion.aspx.cs">
+      <DependentUpon>VerEstacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VerEstacion.aspx.designer.cs">
+      <DependentUpon>VerEstacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VerPunto.aspx.cs">
+      <DependentUpon>VerPunto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VerPunto.aspx.designer.cs">
+      <DependentUpon>VerPunto.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Site.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MedidoresAppDato\MedidoresAppDato.csproj">
+      <Project>{7bfe2d06-4cc6-43c7-9c13-e827e2a4187b}</Project>
+      <Name>MedidoresAppDato</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -41,7 +41,7 @@
           <Property Name="CapMaxEstacion" Type="Int32" Nullable="false" />
           <Property Name="Region" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="HorarioAtencion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="direccion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Direccion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
         </EntityType>
         <EntityType Name="PuntoCarga">
           <Key>
@@ -69,7 +69,7 @@
                 <ScalarProperty Name="CapMaxEstacion" ColumnName="CapMaxEstacion" />
                 <ScalarProperty Name="Region" ColumnName="Region" />
                 <ScalarProperty Name="HorarioAtencion" ColumnName="HorarioAtencion" />
-                <ScalarProperty Name="direccion" ColumnName="direccion" />
+                <ScalarProperty Name="Direccion" ColumnName="direccion" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
