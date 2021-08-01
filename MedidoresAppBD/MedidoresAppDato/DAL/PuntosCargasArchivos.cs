@@ -46,11 +46,13 @@ namespace MedidoresAppDato.DAL
             dbEntities.SaveChanges();
         }
 
-        public bool Update(PuntoCarga p)
+        public void Update(PuntoCarga p,int idEliminar)
         {
-            //SOLO FALTA ESTO EN TEORIA, NO HAY QUE TOCAR NADA MÁS DEL PROYECTO
-            //ARREGLE LOS aspx.cs, TA TODO BIEN, SOLO FALTA EL ACTUALIZAR Y PROBAR SI FUNCA 
-            throw new NotImplementedException();
+            PuntoCarga e = dbEntities.PuntoCarga.Find(idEliminar);
+            dbEntities.PuntoCarga.Remove(e);
+            dbEntities.PuntoCarga.Add(p);
+            dbEntities.SaveChanges();
+
         }
     }
 }

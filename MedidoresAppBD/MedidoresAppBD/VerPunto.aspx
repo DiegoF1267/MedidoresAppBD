@@ -37,7 +37,7 @@
                     <Columns>
                         <asp:BoundField HeaderText="Id" DataField="Id" />
                         <asp:BoundField HeaderText="Tipo" DataField="tipo" />
-                        <asp:BoundField HeaderText="Capcidad Maxima De Vehiculos" DataField="capcidadMaxVehiculos" />
+                        <asp:BoundField HeaderText="Capcidad Maxima De Vehiculos" DataField="capMaxVehiculos" />
                         <asp:BoundField HeaderText="Termino de Vida Util" DataField="terminoVidaUtil" />
                         <asp:TemplateField HeaderText="Acciones">
                             <ItemTemplate>

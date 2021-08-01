@@ -32,7 +32,7 @@ namespace MedidoresWeb
 
                 EstacionServicio es = new EstacionServicio();
                 es.Id = id;
-                es.CapacidadMaxPuntosCarga = capacidad;
+                es.CapMaxEstacion = capacidad;
                 es.Direccion = direccion;
                 es.HorarioAtencion = horario;
                 es.Region = region;

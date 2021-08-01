@@ -11,6 +11,6 @@ namespace MedidoresAppDato.DAL
         void Save(PuntoCarga a);
         List<PuntoCarga> GetAll();
         List<PuntoCarga> GetAll(string tipo);
-        bool Update(PuntoCarga p);
+        void Update(PuntoCarga p, int idEliminar);
     }
 }

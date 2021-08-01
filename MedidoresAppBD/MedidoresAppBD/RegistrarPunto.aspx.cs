@@ -30,7 +30,7 @@ namespace MedidoresWeb
 
                 PuntoCarga pc = new PuntoCarga();
                 pc.Id = id;
-                pc.CapcidadMaxVehiculos = capacidad;
+                pc.CapMaxVehiculos = capacidad;
                 pc.TerminoVidaUtil = fecha;
                 pc.Tipo = tipo;
 

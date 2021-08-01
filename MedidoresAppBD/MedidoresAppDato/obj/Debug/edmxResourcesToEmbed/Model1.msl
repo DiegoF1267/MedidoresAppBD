@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MedidoresAppBDModelStoreContainer" CdmEntityContainer="MedidoresAppBDEntities">
+    <EntitySetMapping Name="EstacionServicio">
+      <EntityTypeMapping TypeName="MedidoresAppBDModel.EstacionServicio">
+        <MappingFragment StoreEntitySet="EstacionServicio">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CapMaxEstacion" ColumnName="CapMaxEstacion" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="HorarioAtencion" ColumnName="HorarioAtencion" />
+          <ScalarProperty Name="Direccion" ColumnName="direccion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PuntoCarga">
+      <EntityTypeMapping TypeName="MedidoresAppBDModel.PuntoCarga">
+        <MappingFragment StoreEntitySet="PuntoCarga">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CapMaxVehiculos" ColumnName="CapMaxVehiculos" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="TerminoVidaUtil" ColumnName="TerminoVidaUtil" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,12 @@
+C:\Users\diego\OneDrive\Escritorio\MedidoresAppBaseDatos\MedidoresAppBD\MedidoresAppDato\bin\Debug\MedidoresAppDato.dll.config
+C:\Users\diego\OneDrive\Escritorio\MedidoresAppBaseDatos\MedidoresAppBD\MedidoresAppDato\bin\Debug\MedidoresAppDato.dll
+C:\Users\diego\OneDrive\Escritorio\MedidoresAppBaseDatos\MedidoresAppBD\MedidoresAppDato\bin\Debug\MedidoresAppDato.pdb
+C:\Users\diego\OneDrive\Escritorio\MedidoresAppBaseDatos\MedidoresAppBD\MedidoresAppDato\bin\Debug\EntityFramework.dll
+C:\Users\diego\OneDrive\Escritorio\MedidoresAppBaseDatos\MedidoresAppBD\MedidoresAppDato\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\diego\OneDrive\Escritorio\MedidoresAppBaseDatos\MedidoresAppBD\MedidoresAppDato\bin\Debug\EntityFramework.xml
+C:\Users\diego\OneDrive\Escritorio\MedidoresAppBaseDatos\MedidoresAppBD\MedidoresAppDato\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\diego\OneDrive\Escritorio\MedidoresAppBaseDatos\MedidoresAppBD\MedidoresAppDato\obj\Debug\MedidoresAppDato.csprojAssemblyReference.cache
+C:\Users\diego\OneDrive\Escritorio\MedidoresAppBaseDatos\MedidoresAppBD\MedidoresAppDato\obj\Debug\MedidoresAppDato.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Escritorio\MedidoresAppBaseDatos\MedidoresAppBD\MedidoresAppDato\obj\Debug\MedidoresAppDato.csproj.CopyComplete
+C:\Users\diego\OneDrive\Escritorio\MedidoresAppBaseDatos\MedidoresAppBD\MedidoresAppDato\obj\Debug\MedidoresAppDato.dll
+C:\Users\diego\OneDrive\Escritorio\MedidoresAppBaseDatos\MedidoresAppBD\MedidoresAppDato\obj\Debug\MedidoresAppDato.pdb

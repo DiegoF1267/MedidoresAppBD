@@ -13,40 +13,28 @@ namespace MedidoresWeb
     {
         
         IPuntosCargas dal = PuntosCargasFactory.Create();
-        static int id;
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-            {
-                string idTxt = Request.QueryString.Get("idActualizar");
-                id = Convert.ToInt32(idTxt);
-                PuntoCarga p = dal.FindById(id);
-                capTxt.Text = p.CapcidadMaxVehiculos+"";
-                vcTxt.SelectedDate = p.TerminoVidaUtil;
-                tipoRbl.SelectedValue = p.Tipo;
-            }
-
-
-
-            
+    
         }
 
         protected void BtnPuntoCarga_Click(object sender, EventArgs e)
         {
             if (Page.IsValid)
             {
-
+                string idTxt = Request.QueryString.Get("idActualizar");
+                int idEliminar = Convert.ToInt32(idTxt);
                 int capacidad = Int32.Parse(capTxt.Text.Trim());
                 DateTime fecha = vcTxt.SelectedDate;
                 string tipo = tipoRbl.SelectedItem.Value.ToString();
 
                 PuntoCarga pc = new PuntoCarga();
-                pc.Id = id;
-                pc.CapcidadMaxVehiculos = capacidad;
+                pc.Id = idEliminar;
+                pc.CapMaxVehiculos = capacidad;
                 pc.TerminoVidaUtil = fecha;
                 pc.Tipo = tipo;
 
-                dal.Update(pc);
+                dal.Update(pc, idEliminar);
                 Response.Redirect("VerPunto.aspx");
             }
         }

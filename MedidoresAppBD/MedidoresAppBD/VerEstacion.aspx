@@ -19,7 +19,7 @@
                     EmptyDataText="No hay Estaciones registradas">
                     <Columns>
                         <asp:BoundField HeaderText="Id" DataField="Id" />
-                        <asp:BoundField HeaderText="CapacidadMax" DataField="capacidadMaxPuntosCarga" />
+                        <asp:BoundField HeaderText="CapacidadMax" DataField="CapMaxEstacion" />
                         <asp:BoundField HeaderText="Region" DataField="Region" />
                         <asp:BoundField HeaderText="Horario De Atencion" DataField="HorarioAtencion" />
                         <asp:BoundField HeaderText="Dirección" DataField="Direccion" />
