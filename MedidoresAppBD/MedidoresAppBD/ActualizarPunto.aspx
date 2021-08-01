@@ -9,11 +9,6 @@
                 </div>
                 <div class="card-body">
                     <div class="form-group">
-                        <label for="idTxt">ID</label>
-                        <asp:TextBox ID="idTxt" runat="server" CssClass="form-control "></asp:TextBox>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Debe ingresar el id del punto de carga" CssClass="text-danger" ControlToValidate="idTxt" OnServerValidate="idTxt_ServerValidate" ValidateEmptyText="true"></asp:RequiredFieldValidator>
-                    </div>
-                    <div class="form-group">
                         <label for="capTxt">Capacidad maxima</label>
                         <asp:TextBox ID="capTxt" runat="server" CssClass="form-control "></asp:TextBox>
                         <asp:RequiredFieldValidator ID="CapValidator" runat="server" ErrorMessage="Debe ingresar la cantidad maxima de vehiculos" CssClass="text-danger" ControlToValidate="capTxt" OnServerValidate="capTxt_ServerValidate" ValidateEmptyText="true"></asp:RequiredFieldValidator>
